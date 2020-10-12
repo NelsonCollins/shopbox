@@ -1,7 +1,7 @@
 import firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBARZSQxcnvKqKbxHESrvOJc2zUyn2IgUA",
+  
   authDomain: "shopbox-8c5f7.firebaseapp.com",
   databaseURL: "https://shopbox-8c5f7.firebaseio.com",
   projectId: "shopbox-8c5f7",
