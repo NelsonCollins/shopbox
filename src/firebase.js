@@ -1,18 +1,20 @@
 import firebase from 'firebase';
 
-const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyCEFgiLlaI8xizrHz6w_E34S5tEoN67fUE",
-  authDomain: "shopbox-2af71.firebaseapp.com",
-  databaseURL: "https://shopbox-2af71.firebaseio.com",
-  projectId: "shopbox-2af71",
-  storageBucket: "shopbox-2af71.appspot.com",
-  messagingSenderId: "446056493378",
-  appId: "1:446056493378:web:d29d46e99218549ac9d8db",
-  measurementId: "G-2K9CRGBR3V"
-});
+const firebaseConfig = {
+  apiKey: "AIzaSyBARZSQxcnvKqKbxHESrvOJc2zUyn2IgUA",
+  authDomain: "shopbox-8c5f7.firebaseapp.com",
+  databaseURL: "https://shopbox-8c5f7.firebaseio.com",
+  projectId: "shopbox-8c5f7",
+  storageBucket: "shopbox-8c5f7.appspot.com",
+  messagingSenderId: "932286990941",
+  appId: "1:932286990941:web:57118dfdbe9921bff69bb4",
+  measurementId: "G-LJRFZQTNSH"
+};
 
-// const db = firebaseApp.firestore();
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+const db = firebaseApp.firestore();
 
 const auth = firebase.auth();
 
-export  { auth };
+export  { db, auth };

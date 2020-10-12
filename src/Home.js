@@ -16,7 +16,7 @@ function Home() {
                 <Product
                 id="12321341"
                 title="The Lean Start up. How Constant Innovation"
-                price={11.96}
+                price={11.99}
                 rating={5}
                 image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
                 />
@@ -34,7 +34,7 @@ function Home() {
                 <Product
                 id="82351241"
                 title="Samsung - Galaxy Fold SM-F900U - Space Silver "
-                price={1111.99}
+                price={1100.99}
                 rating={5}
                 image="https://images-na.ssl-images-amazon.com/images/I/41gkqsTC7YL._AC_.jpg"
                 />
@@ -50,7 +50,7 @@ function Home() {
                 <Product
                 id="89421341"
                 title="JBL FLIP 4 - Waterproof Portable Bluetooth Speaker"
-                price={80.88}
+                price={80.99}
                 rating={5}
                 image="https://images-na.ssl-images-amazon.com/images/I/61d5F64UDpL._AC_SL1200_.jpg"
                 />
@@ -61,7 +61,7 @@ function Home() {
                 <Product
                 id="12321341"
                 title="Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) "
-                price={899.99}
+                price={890.99}
                 rating={5}
                 image="https://images-na.ssl-images-amazon.com/images/I/81e-YkieQ6L._AC_SL1500_.jpg"
                 />

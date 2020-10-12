@@ -1,24 +1,7 @@
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCEFgiLlaI8xizrHz6w_E34S5tEoN67fUE",
-  authDomain: "shopbox-2af71.firebaseapp.com",
-  databaseURL: "https://shopbox-2af71.firebaseio.com",
-  projectId: "shopbox-2af71",
-  storageBucket: "shopbox-2af71.appspot.com",
-  messagingSenderId: "446056493378",
-  appId: "1:446056493378:web:d29d46e99218549ac9d8db",
-  measurementId: "G-2K9CRGBR3V"
-};
-
-
-
-
-
 const functions = require('firebase-functions');
 const express = require('express');
 const cors = require('cors');
 const stripe = require('stripe')('sk_test_51Hb7dfAbqWokr4jsN1F7g3M3ZJ0NyxKmB7Pf1cZZqprMTrCI0ihzQpLLiJU1O6W4gecW9HMfrThFyY2aYuMs2cHY00g1abln1X');
-// const stripe = require('stripe')('');
 
 //API SETUP
 
@@ -53,4 +36,4 @@ app.post('/payments/create', async (request, response)=>{
 exports.api = functions.https.onRequest(app);
 
 //Example endpoint
-//http://localhost:5001/shopbox-2af71/us-central1/api.
+//http://localhost:5001/shopbox-8c5f7/us-central1/api

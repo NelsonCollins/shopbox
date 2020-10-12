@@ -22,6 +22,16 @@ const reducer = (state, action)  => {
                 ...state,
                 basket: [...state.basket, action.item],
             };
+
+            
+        case 'EMPTY_BASKET':
+            // Logic to change basket into it original array
+            return{
+                ...state,
+                basket: [],
+            };
+
+
            
         case 'REMOVE_FROM_BASKET':
             // Logic to removing item to basket
